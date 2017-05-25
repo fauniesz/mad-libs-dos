@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>To whom it may concern</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Fill in the blanks to write your story!</h1>
+    <div id="blanks">
+      <form>
+        <div class="form-group">
+          <label for="slumLord">A name</label>
+          <input id="slumLord" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="object">A thing you have at home</label>
+          <input id="object" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="scent">A body part</label>
+          <input id="scent" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="verb">A verb</label>
+          <input id="verb" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="yourName">Your name</label>
+          <input id="yourName" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Show me the story!</button>
+      </form>
+    </div>
+
+    <div id="story">
+      <h1>A letter to your landlord</h1>
+
+      <p>
+        Dear <span class="slumLord"></span>,<br>
+        <br> The <span class="object"></span> has been stuck in the toilet for over a week and is starting to smell like <span class="scent"></span>. If you don't fix it I will have no choice but to <span class="verb"></span> your real estate. I appreciate your prompt
+        attention to this matter.<br>
+        <br> Love, <span class="yourName"></span>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
